@@ -1,0 +1,33 @@
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+$body-text-color: var(--dse-body-text-color, $dark) !default;
+$body-bg-color: var(--dse-body-bg-color, $white) !default;
+
+
+/*=============================================
+=                 Buttons                     =
+=============================================*/
+$btn-primary-color: var(--dse-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dse-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $green-light) !default;
+
+
+/*=============================================
+=                 Forms                       =
+=============================================*/
+$form-color: var(--dse-form-color, $dark) !default;
+$form-bg: var(--dse-form-bg, $white) !default;
+$form-error-color: var(--dse-form-error-color, $red) !default;
+$form-error-border: var(--dse-form-error-border, $red) !default;
+$form-border-focus-color: var(--dse-form-border-focus-color, $green) !default;
