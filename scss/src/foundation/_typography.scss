@@ -7,14 +7,12 @@
  * from the palette defined in _variables.scss.
  */
 
-
 /*=============================================
 =            Body font sizes                  =
 =============================================*/
 
 $body-font-size: var(--dse-body-font-size, $fs-sm) !default;
 $body-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
-
 
 /*=============================================
 =            Heading font sizes               =
@@ -26,7 +24,6 @@ $h3-font-size: var(--dse-h3-font-size, $h-3) !default;
 $h4-font-size: var(--dse-h4-font-size, $h-4) !default;
 $h5-font-size: var(--dse-h5-font-size, $h-5) !default;
 $h6-font-size: var(--dse-h6-font-size, $h-6) !default;
-
 
 /*=============================================
 =            Head font weights                =
