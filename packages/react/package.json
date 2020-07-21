@@ -1,0 +1,11 @@
+{
+  "name": "@ds.e/react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "react": "^16.13.1",
+    "typescript": "^3.9.7"
+  }
+}
