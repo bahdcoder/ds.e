@@ -96,6 +96,7 @@
  * styles for components.
  *
  */
-.dse-button__container {
+.dse-panel-container {
   display: flex;
+  position: absolute;
 }
