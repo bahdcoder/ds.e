@@ -99,10 +99,22 @@
  * styles for components.
  *
  */
-.dse-button-container {
-  display: flex;
-  background: var(--dse-btn-primary-bg, #5ece7b);
-  color: var(--dse-btn-primary-color, #fff);
-  border: none;
-  padding: 0.25rem;
+.dse-text-xs {
+  font-size: 0.75rem;
+}
+
+.dse-text-sm {
+  font-size: 0.875rem;
+}
+
+.dse-text-base {
+  font-size: 1rem;
+}
+
+.dse-text-lg {
+  font-size: 1.125rem;
+}
+
+.dse-text-xl {
+  font-size: 1.5rem;
 }

@@ -67,7 +67,7 @@ $blue-light: #b4d2f4;
 
 /* Font families */
 
-$playfair: "Playfair", serif; /* 1 */
+$playfair: "Playfair Display", serif; /* 1 */
 $raleway: "Raleway", "HelveticaNeue", "Helvetica", sans-serif; /* 2 */
 
 /* Font sizes */
@@ -76,6 +76,14 @@ $fs-sm: 0.875rem; // 14px
 $fs-base: 1rem; // 16px
 $fs-lg: 1.125rem; // 18px
 $fs-xl: 1.5rem; // 24px
+
+$fs: (
+  xs: 0.75rem,
+  sm: 0.875rem,
+  base: 1rem,
+  lg: 1.125rem,
+  xl: 1.5rem,
+);
 
 /* Heading font sizes */
 $h-1: 1.375rem; // 22px

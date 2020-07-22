@@ -90,6 +90,9 @@
  * from the palette defined in _variables.scss.
  */
 /*=============================================
+=            Body font family                  =
+=============================================*/
+/*=============================================
 =            Body font sizes                  =
 =============================================*/
 /*=============================================
@@ -599,4 +602,10 @@ template {
   --dse-h4-font-weight: 400;
   --dse-h5-font-weight: 400;
   --dse-h6-font-weight: 300;
+}
+
+body {
+  font-family: var(--dse-body-font-family, "Playfair Display", serif);
+  font-size: var(--dse-body-font-size, 0.875rem);
+  font-weight: var(--dse-body-font-weight, 400);
 }
