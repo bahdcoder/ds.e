@@ -1,7 +1,7 @@
 import React$1 from 'react';
-import FontSizes from '../../foundation/FontSize.js';
+import { FontSize } from '@ds.e/foundation';
 
-const Text = ({ size = FontSizes.base, children }) => {
+const Text = ({ size = FontSize.base, children }) => {
     const className = `dse-text-${size}`;
     return React$1.createElement("p", { className: className }, children);
 };

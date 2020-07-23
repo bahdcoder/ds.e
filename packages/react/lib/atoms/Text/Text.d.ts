@@ -1,7 +1,7 @@
 import React from 'react';
-import FontSizes from '../../foundation/FontSize';
+import { FontSize } from '@ds.e/foundation';
 interface TextProps {
-    size?: keyof typeof FontSizes;
+    size?: keyof typeof FontSize;
 }
 declare const Text: React.FC<TextProps>;
 export default Text;
