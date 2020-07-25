@@ -20,6 +20,18 @@
         cursor: pointer;
     }
 
+    &__caret {
+        transition: all 250ms ease;
+
+        &--open {
+            transform: rotate(180deg);
+        }
+
+        &--closed {
+            transform: rotate(0deg);
+        }
+    }
+
     &__overlay {
         @include padding('none');
         @include margin('none');
