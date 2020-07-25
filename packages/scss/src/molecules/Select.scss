@@ -1,0 +1,35 @@
+@import "foundation/all";
+
+.dse-select {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    &__label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include padding('xs');
+        border: 1px solid $form-border-color;
+        background: $form-bg-color;
+
+        font-family: $body-font-family;
+
+        cursor: pointer;
+    }
+
+    &__overlay {
+        @include padding('none');
+        @include margin('none');
+
+        border: 1px solid $form-border-color;
+        background-color: $form-bg-color;
+        z-index: 99;
+
+        position: absolute;
+
+        width: 100%;
+    }
+}
