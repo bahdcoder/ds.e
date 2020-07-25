@@ -44,9 +44,16 @@
         width: 100%;
         cursor: pointer;
         @include padding('xs');
+
+        box-sizing: border-box;
     }
 
     &__option:hover {
         background-color: $form-bg-color-hover;
+    }
+
+    &__option--selected {
+        background-color: $form-bg-option-selected;
+        color: $form-color-option-selected;
     }
 }
