@@ -28,10 +28,25 @@
         background-color: $form-bg-color;
         z-index: 99;
 
+        list-style-type: none;
+
         box-shadow: map-get($shadows, 'base');
 
         position: absolute;
 
         width: 100%;
+    }
+
+    &__option {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        cursor: pointer;
+        @include padding('xs');
+    }
+
+    &__option:hover {
+        background-color: $form-bg-color-hover;
     }
 }
