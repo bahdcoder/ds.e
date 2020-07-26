@@ -115,6 +115,7 @@ const Select: React.FunctionComponent<SelectProps> = ({ options = [], label = 'P
     }, [isOpen, highlightedIndex])
 
     const onOptionKeyDown: KeyboardEventHandler = (event) => {
+        console.log('--------->', event)
         if (event.keyCode === KEY_CODES.ESC) {
             setIsOpen(false)
 
