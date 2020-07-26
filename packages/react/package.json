@@ -4,7 +4,14 @@
   "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@types/jest": "^26.0.7",
     "@types/react": "^16.9.43",
+    "jest": "^26.1.0",
     "react": "^16.13.1",
     "rollup": "^2.22.1",
     "rollup-plugin-typescript2": "^0.27.1",
@@ -12,6 +19,8 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "dev": "yarn build --watch"
+    "dev": "yarn build --watch",
+    "test": "jest --verbose",
+    "test:watch": "yarn test --watch"
   }
 }
