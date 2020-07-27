@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of spacing 1`] = `
+Object {
+  "lg": "lg",
+  "md": "md",
+  "none": "none",
+  "sm": "sm",
+  "xl": "xl",
+  "xs": "xs",
+  "xxl": "xxl",
+  "xxs": "xxs",
+  "xxxl": "xxxl",
+  "xxxs": "xxxs",
+}
+`;
