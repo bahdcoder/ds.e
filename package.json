@@ -5,8 +5,11 @@
   "author": "Frantz Kati <bahdcoder@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
+    "husky": "^4.2.5",
     "lerna": "^3.22.1"
   },
   "private": true,
@@ -29,6 +32,11 @@
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
