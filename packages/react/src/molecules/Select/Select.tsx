@@ -2,7 +2,7 @@ import React,  { useState, useRef, useEffect, KeyboardEventHandler, createRef } 
 
 import Text from '../../atoms/Text'
 
-const KEY_CODES = {
+export const KEY_CODES = {
     ENTER: 13,
     SPACE: 32,
     DOWN_ARROW: 40,
@@ -10,18 +10,18 @@ const KEY_CODES = {
     UP_ARROW: 38
 }
 
-interface SelectOption {
+export interface SelectOption {
     label: string
     value: string
 }
 
-interface RenderOptionProps  {
+export interface RenderOptionProps  {
     isSelected: boolean
     option: SelectOption
     getOptionRecommendedProps: (overrideProps?: Object) => Object
 }
 
-interface SelectProps {
+export interface SelectProps {
     onOptionSelected?: (option: SelectOption, optionIndex: number) => void
     options?: SelectOption[]
     label?: string
