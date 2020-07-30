@@ -32,6 +32,59 @@ exports[`snapshot of the base state 1`] = `
         />
       </svg>
     </button>
+    <ul
+      aria-hidden="false"
+      class="dse-select__overlay "
+      id="dse-select-list"
+      role="menu"
+      style="top: 10px;"
+    >
+      <li
+        aria-label="Strict Black"
+        class="dse-select__option
+                                
+                                
+                            "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          Strict Black
+        </p>
+      </li>
+      <li
+        aria-label="Heavenly Green"
+        class="dse-select__option
+                                
+                                
+                            "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          Heavenly Green
+        </p>
+      </li>
+      <li
+        aria-label="Sweet Pink"
+        class="dse-select__option
+                                
+                                
+                            "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          Sweet Pink
+        </p>
+      </li>
+    </ul>
   </div>
 </DocumentFragment>
 `;
@@ -70,7 +123,7 @@ exports[`snapshot of the options menu open state 1`] = `
       </svg>
     </button>
     <ul
-      class="dse-select__overlay"
+      class="dse-select__overlay dse-select__overlay--open"
       id="dse-select-list"
       role="menu"
       style="top: 10px;"
@@ -157,6 +210,74 @@ exports[`snapshot of the selected option state 1`] = `
         />
       </svg>
     </button>
+    <ul
+      aria-hidden="false"
+      class="dse-select__overlay "
+      id="dse-select-list"
+      role="menu"
+      style="top: 10px;"
+    >
+      <li
+        aria-checked="true"
+        aria-label="Strict Black"
+        class="dse-select__option
+                                dse-select__option--selected
+                                
+                            "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          Strict Black
+        </p>
+        <svg
+          fill="none"
+          height="1rem"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1rem"
+        >
+          <path
+            d="M5 13l4 4L19 7"
+          />
+        </svg>
+      </li>
+      <li
+        aria-label="Heavenly Green"
+        class="dse-select__option
+                                
+                                
+                            "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          Heavenly Green
+        </p>
+      </li>
+      <li
+        aria-label="Sweet Pink"
+        class="dse-select__option
+                                
+                                
+                            "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          Sweet Pink
+        </p>
+      </li>
+    </ul>
   </div>
 </DocumentFragment>
 `;

@@ -39,6 +39,7 @@
         border: 1px solid $form-border-color;
         background-color: $form-bg-color;
         z-index: 99;
+        display: none;
 
         list-style-type: none;
 
@@ -67,5 +68,11 @@
     &__option--selected {
         background-color: $form-bg-option-selected;
         color: $form-color-option-selected;
+    }
+}
+
+.dse-select__overlay {
+    &--open {
+        display: block;
     }
 }
