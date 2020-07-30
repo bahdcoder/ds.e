@@ -14,5 +14,8 @@
     "build": "tsc",
     "dev": "yarn build -w",
     "test": "jest --verbose"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
