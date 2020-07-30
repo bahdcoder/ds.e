@@ -5,13 +5,9 @@ const spaces: {
     xs: 'xs',
     sm: 'sm',
     md: 'md',
-  // 24px
     lg: 'lg',
-  // 32px
     xl: 'xl',
-  // 48px
     xxl: 'xxl',
-  // 72px
     xxxl: 'xxxl',
 } = {
     none: 'none',
