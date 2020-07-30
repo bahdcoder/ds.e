@@ -5,6 +5,8 @@
   "author": "Frantz Kati <bahdcoder@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
     "lerna": "^3.22.1"
   },
   "private": true,
@@ -21,6 +23,12 @@
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
     "test": "yarn lerna run test",
-    "publish": "yarn test && yarn build && yarn lerna publish"
+    "publish": "yarn test && yarn build && yarn lerna publish",
+    "commit": "yarn git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
