@@ -37,6 +37,10 @@ const compile = (path, fileName) => {
     )    
 }
 
+try {
+    Fs.mkdirSync(Path.resolve('lib'))
+} catch(e) {}
+
 compile('src/global.scss', 'lib/global.css')
 
 getComponents().forEach(component => {
